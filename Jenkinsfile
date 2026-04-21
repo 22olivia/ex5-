@@ -18,7 +18,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                    url: https://github.com/22olivia/ex5-.git
+                    url: 'https://github.com/22olivia/ex5-.git'
             }
         }
         stage('Build Image') {
